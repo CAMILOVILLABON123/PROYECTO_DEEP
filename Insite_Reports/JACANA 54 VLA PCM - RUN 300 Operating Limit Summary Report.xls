@@ -1,0 +1,223 @@
+<html><head><title>Limits Summary</title><meta http-equiv="Content-type" content="text/html; charset=UTF-8" /><STYLE TYPE="text/css" MEDIA=all>body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #660000;
+} 
+table {
+  font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+table.headers {
+   border-width: 1px 1px 1px 1px;
+   border-spacing: 2px;
+   border-style: solid solid solid solid;
+   border-color: black black black black;
+   border-collapse: separate;
+   background-color: white;
+   font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+table.headers td {
+   border-width: 0px 0px 0px 0px;
+   padding: 1px 1px 1px 1px;
+   border-style: inset inset inset inset;
+   border-color: gray gray gray gray;
+   background-color: white;
+   -moz-border-radius: 0px 0px 0px 0px;
+}
+table.limits {
+   border-width: 1px 1px 1px 1px;
+   border-spacing: 1px;
+   border-style: solid solid solid solid;
+   border-color: black black black black;
+   border-collapse: collapse;
+   background-color: white;
+   font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+table.limits th {
+   border-width: 1px 1px 1px 1px;
+   padding: 3px 3px 3px 3px;
+   border-style: solid solid solid solid;
+   border-color: black black black black;
+   background-color: white;
+   -moz-border-radius: 0px 0px 0px 0px;
+   width: 60px;
+}
+table.limits td {
+   border-width: 1px 1px 1px 1px;
+   padding: 3px 3px 3px 3px;
+   border-style: solid solid solid solid;
+   border-color: black black black black;
+   -moz-border-radius: 0px 0px 0px 0px;
+   width: 60px;
+}
+.td2 {
+   border-width: 1px 1px 1px 1px;
+   padding: 3px 3px 3px 3px;
+   border-style: solid solid solid solid;
+   border-color: black black black black;
+   -moz-border-radius: 0px 0px 0px 0px;
+   width: 60px;
+   text-align: right;
+}
+.limitsgreen {
+   background-color: #00ff00;
+}
+.limitsyellow {
+   background-color: #ffff00;
+}
+.limitsred {
+   background-color: #ff0000;
+}
+.boldtext {
+	font-weight: bold;
+}</STYLE></head><H1>Sperry Drilling Services <BR>Vibration Analyzer Report - Operating Limit Summary Report </H1>
+<DIV class=boldtext>Well Information</DIV>
+<TABLE class=headers>
+<TBODY>
+<TR>
+<TD width=200>Customer Name</TD>
+<TD width=407>GEOPARK</TD></TR>
+<TR>
+<TD>Rig Name</TD>
+<TD>TOP DRILLING 2501</TD></TR>
+<TR>
+<TD>Well Name</TD>
+<TD>JACANA-54</TD></TR>
+<TR>
+<TD>Field Name</TD>
+<TD>JACANA</TD></TR>
+<TR>
+<TD>Job Number</TD>
+<TD>CB-XX-0907929845</TD></TR></TBODY></TABLE><BR>
+<DIV class=boldtext>Vibrating Operating Limit Summary Information</DIV>
+<TABLE class=headers>
+<TBODY>
+<TR>
+<TD width=200>Vibration Tool</TD>
+<TD width=407>N/A</TD></TR>
+<TR>
+<TD>M/LWD Tool Size</TD>
+<TD>6 ¾" and smaller</TD></TR>
+<TR>
+<TD>Rotary Steerable Tool Size</TD>
+<TD>Geo-Pilot 9600</TD></TR>
+<TR>
+<TD>Run Number selected</TD>
+<TD>300</TD></TR>
+<TR>
+<TD>Activity Code</TD>
+<TD>All</TD></TR>
+<TR>
+<TD>GP RPM Filter Min Value</TD>
+<TD></TD></TR>
+<TR>
+<TD>GP RPM Filter Max Value</TD>
+<TD></TD></TR>
+<TR>
+<TD>Report Generation Date and Time</TD>
+<TD></TD></TR></TBODY></TABLE>
+<TABLE class=headers>
+<TBODY>
+<TR>
+<TD width=611>Comments: Operating Limit Summary cannot be broken down by Activity Code. Any blank column in a table indicates the data is not present in the database records. </TD></TR></TBODY></TABLE><BR>
+<DIV class=boldtext>Vibrating Operating Limit Summary</DIV><BR>
+<TABLE cellSpacing=0 cellPadding=3 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top>
+<DIV class=boldtext>Average X Bins</DIV>
+<TABLE class=limits>
+<THEAD>
+<TR>
+<TD>Band (G)</TD>
+<TD>Bit Run (Mins)</TD>
+<TD>Op Limit (Mins)</TD></TR></THEAD>
+<TBODY>
+<TR class=limitsgreen>
+<TD>0 to 3</TD>
+<TD class=td2>9959</TD>
+<TD class=td2></TD></TR>
+<TR class=limitsyellow>
+<TD>3 to 6</TD>
+<TD class=td2>0</TD>
+<TD class=td2></TD></TR>
+<TR class=limitsred>
+<TD>&gt; 6</TD>
+<TD class=td2>0</TD>
+<TD class=td2>18</TD></TR></TBODY></TABLE><BR></TD>
+<TD></TD>
+<TD vAlign=top>
+<DIV class=boldtext>Average Z Bins</DIV>
+<TABLE class=limits>
+<THEAD>
+<TR>
+<TD>Band (G)</TD>
+<TD>Bit Run (Mins)</TD>
+<TD>Op Limit (Mins)</TD></TR></THEAD>
+<TBODY>
+<TR class=limitsgreen>
+<TD>0 to 2</TD>
+<TD class=td2>9959</TD>
+<TD class=td2></TD></TR>
+<TR class=limitsyellow>
+<TD>2 to 4</TD>
+<TD class=td2>0</TD>
+<TD class=td2></TD></TR>
+<TR class=limitsred>
+<TD>&gt; 4</TD>
+<TD class=td2>0</TD>
+<TD class=td2>8</TD></TR></TBODY></TABLE><BR></TD>
+<TD></TD>
+<TD vAlign=top>
+<DIV class=boldtext>Peak X Bins</DIV>
+<TABLE class=limits>
+<THEAD>
+<TR>
+<TD>Band (G)</TD>
+<TD>Bit Run (count)</TD>
+<TD>Op Limit (Events)</TD></TR></THEAD>
+<TBODY>
+<TR class=limitsgreen>
+<TD>0 to 15</TD>
+<TD class=td2>29892</TD>
+<TD class=td2></TD></TR>
+<TR class=limitsyellow>
+<TD>15 to 30</TD>
+<TD class=td2>0</TD>
+<TD class=td2></TD></TR>
+<TR class=limitsred>
+<TD>&gt; 30</TD>
+<TD class=td2>0</TD>
+<TD class=td2>150</TD></TR></TBODY></TABLE><BR></TD>
+<TD></TD>
+<TR></TR>
+<TR>
+<TD vAlign=top>
+<DIV class=boldtext>Peak Z Bins</DIV>
+<TABLE class=limits>
+<THEAD>
+<TR>
+<TD>Band (G)</TD>
+<TD>Bit Run (count)</TD>
+<TD>Op Limit (Events)</TD></TR></THEAD>
+<TBODY>
+<TR class=limitsgreen>
+<TD>0 to 10</TD>
+<TD class=td2>29892</TD>
+<TD class=td2></TD></TR>
+<TR class=limitsyellow>
+<TD>10 to 20</TD>
+<TD class=td2>0</TD>
+<TD class=td2></TD></TR>
+<TR class=limitsred>
+<TD>&gt; 20</TD>
+<TD class=td2>0</TD>
+<TD class=td2>100</TD></TR></TBODY></TABLE><BR></TD>
+<TD></TD></TR></TBODY></TABLE>Vibration exposure for Exceeded Specified Limits determination must be taken from the DDS or DDSr Environmental Report. Vibration level analyzer calculated times for average and peak duration are calculated using the storage frequency in the selected record 
